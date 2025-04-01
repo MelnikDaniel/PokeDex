@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script src="./scripts/api.js"></script>
+    <script src="./scripts/chart.js"></script>
+    <script src="./scripts/templates.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/cards.css">
+    <link rel="stylesheet" href="./style/modals.css">
+</head>
+
+<body onload="onloadFunc()">
+    <h1>PokeDex</h1>
+    <input type="text" id="search-input" placeholder="Search Pokémon"><button id="search-button">Search</button>
+    <div id="pokemon-container"></div>
+    <button id="load-more">Load More Pokémon</button>
+</body>
+
+</html>

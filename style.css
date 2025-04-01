@@ -1,0 +1,25 @@
+canvas {
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+}
+
+/* Sprite im Info-Bereich */
+.info-pokemon-sprite {
+    height: 150px;
+}
+
+/* Typen der Pokémon */
+.pokemon-types {
+    display: flex;
+    gap: 8px; /* Abstand zwischen den Typ-Bildern */
+    justify-content: center; /* Zentriere die Typ-Bilder */
+    margin-top: 10px;
+}
+
+.pokemon-type-icon {
+    width: 100px; /* Größe der Typ-Icons */
+    height: 100px;
+}
